@@ -1,0 +1,5 @@
+import pickle
+
+pickle_out=open("pickled_algos/documents.pickle","rb")
+pickle.dump("sentiment_mod_file.py",pickle_out)
+pickle_out.close()
